@@ -11,7 +11,7 @@ dap.configurations.c = {
 		type = "lldb",
 		request = "launch",
 		program = function()
-			return vim.fn.getcwd() .. "/out/Debug/test"
+			return vim.fn.getcwd() .. "/bin/Debug/test"
 		end,
 		cwd = "${workspaceFolder}",
 		stopOnEntry = false,
